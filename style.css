@@ -72,8 +72,11 @@ body {
   margin-left: 30px;
 }
 
+/*Home Section*/
 .container1 {
   margin-left: 10%;
+  margin-right: 10%;
+
 }
 
 .banner {
@@ -115,6 +118,65 @@ body {
 .banner p {
   /*color: #8C1C13;*/
   font-weight: bold;
+}
+
+/*what we do*/
+.sectionTitle {
+  width: 300px;
+  border-bottom: 3px solid #BF4342;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 20px auto 50px;
+  text-transform: uppercase;
+  padding: 10px
+}
+
+#WhatWeDo p {
+  text-align: justify;
+  margin-bottom: 25vh;
+}
+
+.carousel {
+  list-style: none;
+}
+
+.carousel .card {
+  padding-top: 2%;
+  border: 3px solid;
+  border-color: #BF4342;
+
+  height: 48vh;
+  text-align: center;
+  margin-right: 1.5%;
+  margin-left: 1%;
+  border-radius: 8px;
+  padding: 2%;
+}
+
+.container1 .carousel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3 - 12px));
+  gap: 10px;
+  overflow-x: scroll;
+}
+
+.card .img img {
+  width: 184px;
+  height: 184px;
+  object-fit: cover;
+}
+
+@media screen and (max-width:900px) {
+  .container1 .carousel {
+    grid-auto-columns: calc((100% / 2 - 9px));
+  }
+}
+
+@media screen and (max-width:600px) {
+  .container1 .carousel {
+    grid-auto-columns: 100%;
+  }
 }
 
 @media (max-width: 767px) {
