@@ -30,7 +30,7 @@ body {
   z-index: 1000;
 }
 
-.container {
+.container2 {
   display: flex;
   height: 7vh;
   align-items: center;
@@ -47,7 +47,6 @@ body {
   height: 80px;
   margin-top: 14px;
 }
-
 
 .navbar-list {
   display: flex;
@@ -70,7 +69,6 @@ body {
 .navbar-list a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 1.4rem;
   padding: 10px;
   transition: color 0.3s ease;
   margin-left: 30px;
@@ -110,7 +108,7 @@ body {
 
 
 .banner h1 {
-  margin-top: 25vh;
+  margin-top: 38vh;
   font-size: 3.5rem;
   color: white;
   text-shadow: 0 0 6px #BF4342;
@@ -130,14 +128,15 @@ body {
   border-bottom: 3px solid #BF4342;
   text-align: center;
   font-size: 1.8rem;
-  margin: 20px auto 50px;
+  margin: 133px auto 102px;
   text-transform: uppercase;
   padding: 10px
 }
 
 #WhatWeDo p {
   text-align: justify;
-  margin-bottom: 25vh;
+  margin-bottom: 10vh;
+  font-family: fangsong;
 }
 
 .carousel {
@@ -146,14 +145,12 @@ body {
 
 .carousel .card {
   padding-top: 2%;
-  border: 3px solid;
-  border-color: #BF4342;
 
-  height: 48vh;
+  height: 47vh;
   text-align: center;
   margin-right: 1.5%;
   margin-left: 1%;
-  border-radius: 8px;
+  margin-bottom: 10vh;
   padding: 2%;
 }
 
@@ -166,8 +163,8 @@ body {
 }
 
 .card .img img {
-  width: 184px;
-  height: 184px;
+  width: 220px;
+  height: 220px;
   object-fit: cover;
 }
 
@@ -205,7 +202,7 @@ body {
   display: flex;
   justify-content: center;
   height: 300vh;
-  margin-top: 20%;
+
 }
 
 /*WHAT WE DO INFO*/
@@ -235,9 +232,38 @@ body {
   text-align: center;
 }
 
+
+.foot {
+  background-color: #BF4342;
+  margin-top: 10vh;
+  height: 35vh;
+}
+
+.foot p {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  text-shadow: 0 0 6px black;
+
+}
+
+.foot p a {
+  color: white;
+}
+
+@media screen and (max-width:770px) and (min-width:600px) {
+  .container2 {
+    height: 15vh;
+  }
+}
+
 @media screen and (max-width:600px) {
   .container1 .carousel {
     grid-auto-columns: 100%;
+  }
+
+  .container2 {
+    height: 14vh;
   }
 
   .cell {
@@ -268,9 +294,72 @@ body {
     flex-direction: column;
     height: auto;
     margin-top: 20%;
-
   }
 
+}
+
+#contact {
+  box-sizing: border-box;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+
+}
+
+.footer.inner {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding: 24px;
+}
+
+.map iframe {
+  width: 100%;
+  height: 340px;
+  border: none;
+
+}
+
+.contact-text {
+  width: 100%;
+  height: auto;
+  text-align: -webkit-center;
+}
+
+.contact-text h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: 0;
+  padding-bottom: 20px;
+}
+
+.contact-text h2 {
+  font-size: 23px;
+  font-weight: 500;
+  color: #444;
+  margin: 0;
+  padding-top: 25px;
+}
+
+.contact-text h2 i {
+  color: #07d5a4
+}
+
+.contact-text p {
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding-top: 4px;
+  padding-left: 24px;
+  font-weight: 100;
+}
+
+.gm-style .place-card-large {
+  padding: 0px 0px 9px 11px;
 }
 
 @media (max-width: 767px) {
@@ -303,6 +392,12 @@ body {
 @media (min-width: 768px) {
   .header {
     padding: 12px 0;
+  }
+
+  @media (max-width: 750px) and (min-width: 600px) {
+    .container2 {
+      height: 21vh;
+    }
   }
 
   .navbar-list {
