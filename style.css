@@ -432,6 +432,11 @@ body {
   font-size: 1rem;
 }
 
+/*activity*/
+#learning h2 {
+  font-size: 1rem;
+}
+
 @media(max-width: 767px) {
   .header {
     padding: 8px 0;
