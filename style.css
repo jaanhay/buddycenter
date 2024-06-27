@@ -255,6 +255,10 @@ body {
   .container2 {
     height: 15vh;
   }
+
+  .kna {
+    display: block;
+  }
 }
 
 @media screen and (max-width:600px) {
@@ -300,6 +304,7 @@ body {
   .foot {
     margin-top: 139vh;
   }
+
 
 }
 
@@ -370,7 +375,7 @@ body {
 /* KIANNA*/
 .kna {
   display: flex;
-  height: 45vh;
+  height: auto;
   border: solid #BF4342;
   border-radius: 6px;
   border-width: 5px;
@@ -403,6 +408,28 @@ body {
   color: steelblue;
   text-align: center;
   font-family: fangsong;
+}
+
+@media screen and (max-width:600px) {
+  .kna {
+    display: block;
+    height: auto;
+  }
+}
+
+/*recreational*/
+.buddy-rec {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: fangsong;
+  border: solid #BF4342;
+  padding: 3%;
+  border-width: 4px;
+  border-radius: 39px;
+}
+
+#recreational h2 {
+  font-size: 1rem;
 }
 
 @media(max-width: 767px) {
