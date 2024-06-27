@@ -367,7 +367,45 @@ body {
   padding: 0px 0px 9px 11px;
 }
 
-@media (max-width: 767px) {
+/* KIANNA*/
+.kna {
+  display: flex;
+  height: 45vh;
+  border: solid #BF4342;
+  border-radius: 6px;
+  border-width: 5px;
+}
+
+#k-img img {
+  height: 40vh;
+}
+
+#k-img {
+  padding: 5px 5px 10px 10px;
+}
+
+#kianna-content {
+  text-align: justify;
+  padding: 5%;
+  font-family: fangsong;
+}
+
+#kianna-more-info {
+  text-align: -webkit-center;
+
+}
+
+#kianna-more-info p {
+  width: 23%;
+  border: solid #BF4342;
+  border-radius: 5px;
+  background-color: linen;
+  color: steelblue;
+  text-align: center;
+  font-family: fangsong;
+}
+
+@media(max-width: 767px) {
   .header {
     padding: 8px 0;
   }
