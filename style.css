@@ -260,6 +260,7 @@ body {
 @media screen and (max-width:600px) {
   .container1 .carousel {
     grid-auto-columns: 100%;
+
   }
 
   .container2 {
@@ -294,6 +295,10 @@ body {
     flex-direction: column;
     height: auto;
     margin-top: 20%;
+  }
+
+  .foot {
+    margin-top: 139vh;
   }
 
 }
