@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #E7D7C1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.header {
+  width: 300px;
+  border-bottom: 3px solid #BF4342;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 30px auto 102px;
+  text-transform: uppercase;
+  padding: 10px
+}
+
+.project-kianna-services {
+  height: 42vh;
+  margin-bottom: 17vh;
+  background-image: url("website-buddy center/kiana-removebg-preview.png");
+  background-position: 113% 40%;
+  background-repeat: no-repeat;
+}
+
+.project-kianna-services h3 {
+  font-size: 1.5rem;
+}
+
+.project-kianna-services li {
+  font-size: 1.2rem;
+  line-height: 40px;
+
+}
+
+.content {
+  text-align: center;
+  line-height: 7vh;
+  border-top: solid #BF4342;
+  border-bottom: solid #BF4342;
+}
+
+.content h1 {
+  margin-top: 5vh;
+  font-size: 1.5rem;
+}
+
+.content p {
+  font-size: 1.1rem;
+  margin-bottom: 5vh;
+}
+
+.goals {
+  padding-bottom: 9vh;
+}
+
+.goals h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+
+.goals li {
+  font-size: 1.2rem;
+  line-height: 6vh;
+}
