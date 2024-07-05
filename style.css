@@ -305,6 +305,10 @@ body {
     margin-top: 139vh;
   }
 
+  #contact {
+    height: 250vh;
+  }
+
 
 }
 
@@ -312,6 +316,7 @@ body {
   box-sizing: border-box;
   margin-left: 10%;
   margin-right: 10%;
+
 }
 
 .footer {
@@ -443,6 +448,26 @@ body {
 
 }
 
+.review {
+  background-color: turquoise;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-left: 17.5%;
+}
+
+#review-text {
+  flex: 1;
+  margin-right: 1rem;
+}
+
+#review-logo ion-icon {
+  font-size: 3rem;
+}
+
 .rec-gallery {
   margin-top: 1vh;
   margin-bottom: 1vh;
@@ -473,34 +498,33 @@ body {
   .banner h1 {
     margin-top: 15hv;
   }
-}
 
-@media (min-width: 768px) {
-  .header {
-    padding: 12px 0;
-  }
+  @media (min-width: 768px) {
+    .header {
+      padding: 12px 0;
+    }
 
-  @media (max-width: 750px) and (min-width: 600px) {
-    .container2 {
-      height: 21vh;
+    @media (max-width: 750px) and (min-width: 600px) {
+      .container2 {
+        height: 21vh;
+      }
+    }
+
+    .navbar-list {
+      flex-direction: row;
+    }
+
+    .navbar-list li {
+      margin-right: 10px;
+      margin-bottom: 0;
+    }
+
+    .navbar-list:hover {
+      background-color: transparent;
+    }
+
+    .navbar-list a {
+      padding: 6px 8px;
+      font-size: 1rem;
     }
   }
-
-  .navbar-list {
-    flex-direction: row;
-  }
-
-  .navbar-list li {
-    margin-right: 10px;
-    margin-bottom: 0;
-  }
-
-  .navbar-list:hover {
-    background-color: transparent;
-  }
-
-  .navbar-list a {
-    padding: 6px 8px;
-    font-size: 1rem;
-  }
-}
