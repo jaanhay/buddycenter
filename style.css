@@ -7,6 +7,7 @@
   font-size: 20px;
 }
 
+
 html {
   height: 100%;
   width: 100%;
@@ -18,6 +19,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.8;
   overflow-x: hidden;
+  width: 100%;
 }
 
 /*   #BF4342   */
@@ -79,7 +81,7 @@ body {
 .container1 {
   margin-left: 10%;
   margin-right: 10%;
-
+  width: auto;
 }
 
 .banner {
@@ -168,6 +170,11 @@ body {
   height: 220px;
   object-fit: cover;
   border: groove 0.5em #BF4342;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+
 }
 
 @media screen and (max-width:900px) {
@@ -309,6 +316,28 @@ body {
     height: 250vh;
   }
 
+  .buddy-rec {
+    margin: 1% !important;
+    /* Force no margin */
+    padding: 0 !important;
+    /* Force no padding */
+    font-size: 1.2em;
+    /* Increase font size for better readability */
+    box-sizing: border-box;
+    /* Ensure padding and border are included in the element’s total width and height */
+  }
+
+  .buddy-rec ul {
+    padding: 1% !important;
+    /* Remove padding from the list */
+    margin: 0 !important;
+    /* Remove margin from the list */
+  }
+
+  .buddy-rec li {
+    margin-bottom: 10px;
+    /* Space out the list items */
+  }
 
 }
 
@@ -476,7 +505,8 @@ body {
 
 @media(max-width: 767px) {
   .header {
-    padding: 8px 0;
+    padding: 0;
+    /*8px*/
   }
 
   .container {
@@ -502,30 +532,40 @@ body {
 
   @media (min-width: 768px) {
     .header {
-      padding: 12px 0;
+      padding: 0;
+      /*12px*/
     }
 
-    @media (max-width: 750px) and (min-width: 600px) {
-      .container2 {
-        height: 21vh;
-      }
+    html,
+    body {
+      width: 100%;
+      overflow-x: hidden;
+      /* Prevent horizontal scrolling */
     }
 
-    .navbar-list {
-      flex-direction: row;
-    }
+  }
 
-    .navbar-list li {
-      margin-right: 10px;
-      margin-bottom: 0;
-    }
-
-    .navbar-list:hover {
-      background-color: transparent;
-    }
-
-    .navbar-list a {
-      padding: 6px 8px;
-      font-size: 1rem;
+  @media (max-width: 750px) and (min-width: 600px) {
+    .container2 {
+      height: 21vh;
     }
   }
+
+  .navbar-list {
+    flex-direction: row;
+  }
+
+  .navbar-list li {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .navbar-list:hover {
+    background-color: transparent;
+  }
+
+  .navbar-list a {
+    padding: 6px 8px;
+    font-size: 1rem;
+  }
+}
