@@ -44,8 +44,9 @@ body {
 }
 
 .logo img {
-  height: 80px;
-  margin-top: 14px;
+  height: 85px;
+  margin-top: 39px;
+
 }
 
 .navbar-list {
@@ -128,7 +129,7 @@ body {
   border-bottom: 3px solid #BF4342;
   text-align: center;
   font-size: 1.8rem;
-  margin: 133px auto 102px;
+  margin: 77px auto 78px;
   text-transform: uppercase;
   padding: 10px
 }
@@ -166,6 +167,7 @@ body {
   width: 220px;
   height: 220px;
   object-fit: cover;
+  border: groove 0.5em #BF4342;
 }
 
 @media screen and (max-width:900px) {
@@ -301,9 +303,7 @@ body {
     margin-top: 20%;
   }
 
-  .foot {
-    margin-top: 139vh;
-  }
+
 
   #contact {
     height: 250vh;
@@ -428,13 +428,14 @@ body {
   margin-right: 15%;
   font-family: fangsong;
   border: solid #BF4342;
-  padding: 3%;
-  border-width: 4px;
-  border-radius: 39px;
+  padding: 5%;
+  border-width: 2px;
+  text-align: justify;
 }
 
-#recreational h2 {
-  font-size: 1rem;
+.buddy-rec li {
+  padding: 3%;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 /*activity*/
