@@ -3,7 +3,6 @@
 *::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-size: 20px;
 }
 
@@ -535,5 +534,19 @@ body {
     .navbar-list a {
       padding: 6px 8px;
       font-size: 1rem;
+    }
+  }
+
+  @media screen and (max-width:770px) and (min-width:595px) {
+    .container2 {
+      height: 15vh;
+    }
+
+    .kna {
+      display: block;
+    }
+
+    .foot {
+      margin-top: 150vh;
     }
   }
